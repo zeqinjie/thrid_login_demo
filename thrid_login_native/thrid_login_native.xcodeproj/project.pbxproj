@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A77A9228CDA0F000E4B626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A77A9128CDA0F000E4B626 /* AppDelegate.swift */; };
+		15A77A9428CDA0F000E4B626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A77A9328CDA0F000E4B626 /* SceneDelegate.swift */; };
+		15A77A9628CDA0F000E4B626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A77A9528CDA0F000E4B626 /* ViewController.swift */; };
+		15A77A9928CDA0F000E4B626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A77A9728CDA0F000E4B626 /* Main.storyboard */; };
+		15A77A9B28CDA0F000E4B626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A77A9A28CDA0F000E4B626 /* Assets.xcassets */; };
+		15A77A9E28CDA0F000E4B626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A77A9C28CDA0F000E4B626 /* LaunchScreen.storyboard */; };
+		A9B3A17DFA6CFC0F251C4AF8 /* Pods_thrid_login_native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C7AF8AC521B68067FEFE42 /* Pods_thrid_login_native.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11988A817BA39A8C29AAAF22 /* Pods-thrid_login_native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thrid_login_native.debug.xcconfig"; path = "Target Support Files/Pods-thrid_login_native/Pods-thrid_login_native.debug.xcconfig"; sourceTree = "<group>"; };
+		15A77A8E28CDA0F000E4B626 /* thrid_login_native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thrid_login_native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A77A9128CDA0F000E4B626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15A77A9328CDA0F000E4B626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15A77A9528CDA0F000E4B626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15A77A9828CDA0F000E4B626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A77A9A28CDA0F000E4B626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A77A9D28CDA0F000E4B626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15A77A9F28CDA0F000E4B626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C7AF8AC521B68067FEFE42 /* Pods_thrid_login_native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thrid_login_native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DE7130709DE09374D79A14 /* Pods-thrid_login_native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thrid_login_native.release.xcconfig"; path = "Target Support Files/Pods-thrid_login_native/Pods-thrid_login_native.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A77A8B28CDA0F000E4B626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B3A17DFA6CFC0F251C4AF8 /* Pods_thrid_login_native.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A77A8528CDA0F000E4B626 = {
+			isa = PBXGroup;
+			children = (
+				15A77A9028CDA0F000E4B626 /* thrid_login_native */,
+				15A77A8F28CDA0F000E4B626 /* Products */,
+				DC0FBB53D529F9FCBAC14996 /* Pods */,
+				9FC8FDD42399FA418AC097CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15A77A8F28CDA0F000E4B626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A77A8E28CDA0F000E4B626 /* thrid_login_native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A77A9028CDA0F000E4B626 /* thrid_login_native */ = {
+			isa = PBXGroup;
+			children = (
+				15A77A9128CDA0F000E4B626 /* AppDelegate.swift */,
+				15A77A9328CDA0F000E4B626 /* SceneDelegate.swift */,
+				15A77A9528CDA0F000E4B626 /* ViewController.swift */,
+				15A77A9728CDA0F000E4B626 /* Main.storyboard */,
+				15A77A9A28CDA0F000E4B626 /* Assets.xcassets */,
+				15A77A9C28CDA0F000E4B626 /* LaunchScreen.storyboard */,
+				15A77A9F28CDA0F000E4B626 /* Info.plist */,
+			);
+			path = thrid_login_native;
+			sourceTree = "<group>";
+		};
+		9FC8FDD42399FA418AC097CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C7AF8AC521B68067FEFE42 /* Pods_thrid_login_native.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0FBB53D529F9FCBAC14996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11988A817BA39A8C29AAAF22 /* Pods-thrid_login_native.debug.xcconfig */,
+				F7DE7130709DE09374D79A14 /* Pods-thrid_login_native.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A77A8D28CDA0F000E4B626 /* thrid_login_native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A77AA228CDA0F000E4B626 /* Build configuration list for PBXNativeTarget "thrid_login_native" */;
+			buildPhases = (
+				DACB3715C3893600BF24FB3C /* [CP] Check Pods Manifest.lock */,
+				15A77A8A28CDA0F000E4B626 /* Sources */,
+				15A77A8B28CDA0F000E4B626 /* Frameworks */,
+				15A77A8C28CDA0F000E4B626 /* Resources */,
+				F5A63242C36BF9B3C73C0D55 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thrid_login_native;
+			productName = thrid_login_native;
+			productReference = 15A77A8E28CDA0F000E4B626 /* thrid_login_native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A77A8628CDA0F000E4B626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					15A77A8D28CDA0F000E4B626 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 15A77A8928CDA0F000E4B626 /* Build configuration list for PBXProject "thrid_login_native" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A77A8528CDA0F000E4B626;
+			productRefGroup = 15A77A8F28CDA0F000E4B626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A77A8D28CDA0F000E4B626 /* thrid_login_native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A77A8C28CDA0F000E4B626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A77A9E28CDA0F000E4B626 /* LaunchScreen.storyboard in Resources */,
+				15A77A9B28CDA0F000E4B626 /* Assets.xcassets in Resources */,
+				15A77A9928CDA0F000E4B626 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DACB3715C3893600BF24FB3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thrid_login_native-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A63242C36BF9B3C73C0D55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thrid_login_native/Pods-thrid_login_native-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thrid_login_native/Pods-thrid_login_native-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-thrid_login_native/Pods-thrid_login_native-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A77A8A28CDA0F000E4B626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A77A9628CDA0F000E4B626 /* ViewController.swift in Sources */,
+				15A77A9228CDA0F000E4B626 /* AppDelegate.swift in Sources */,
+				15A77A9428CDA0F000E4B626 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15A77A9728CDA0F000E4B626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A77A9828CDA0F000E4B626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15A77A9C28CDA0F000E4B626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A77A9D28CDA0F000E4B626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A77AA028CDA0F000E4B626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15A77AA128CDA0F000E4B626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A77AA328CDA0F000E4B626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11988A817BA39A8C29AAAF22 /* Pods-thrid_login_native.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thrid_login_native/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengzeqin.thrid-login-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15A77AA428CDA0F000E4B626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DE7130709DE09374D79A14 /* Pods-thrid_login_native.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RA5LSHPUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thrid_login_native/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhengzeqin.thrid-login-native";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A77A8928CDA0F000E4B626 /* Build configuration list for PBXProject "thrid_login_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A77AA028CDA0F000E4B626 /* Debug */,
+				15A77AA128CDA0F000E4B626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A77AA228CDA0F000E4B626 /* Build configuration list for PBXNativeTarget "thrid_login_native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A77AA328CDA0F000E4B626 /* Debug */,
+				15A77AA428CDA0F000E4B626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A77A8628CDA0F000E4B626 /* Project object */;
+}
